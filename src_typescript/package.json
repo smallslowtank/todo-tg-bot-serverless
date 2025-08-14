@@ -1,0 +1,30 @@
+{
+  "name": "todo_tg_bot_ts",
+  "version": "1.0.0",
+  "description": "ToDo telegram bot on TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "smallslowtank",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@types/node": "^24.2.0",
+    "eslint": "^9.32.0",
+    "globals": "^16.3.0",
+    "jiti": "^2.5.1",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.39.0",
+    "@types/dotenv": "^6.1.1"
+  },
+  "dependencies": {
+    "@ydbjs/auth": "^6.0.1-alpha.32",
+    "@ydbjs/core": "^6.0.1-alpha.32",
+    "@ydbjs/query": "^6.0.1-alpha.32",
+    "dotenv": "^17.2.1",
+    "telegraf": "^4.16.3"
+  }
+}
