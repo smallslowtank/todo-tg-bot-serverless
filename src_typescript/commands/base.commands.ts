@@ -1,4 +1,3 @@
-import { message } from "telegraf/filters";
 import { keyboard_help, keyboard_list } from "../keyboards/inline";
 import { Command } from "./command.class";
 import { create_list_of_tasks } from "./todo.commands";
