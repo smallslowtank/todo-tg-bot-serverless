@@ -9,5 +9,5 @@ engine = create_async_engine(
     poolclass=AsyncAdaptedQueuePool,
     **settings.ARGS,
 )
-async_session = async_sessionmaker(bind=engine)
+async_session = async_sessionmaker(bind=engine, expire_on_commit=False)
 Base = declarative_base()
